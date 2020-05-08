@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e2357ac-1277-45d0-b157-5b8bb7606080" name="Default" comment="" />
+    <list default="true" id="5e2357ac-1277-45d0-b157-5b8bb7606080" name="Default" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -502,8 +504,16 @@
       <workItem from="1588724313332" duration="30795000" />
       <workItem from="1588814364130" duration="8108000" />
       <workItem from="1588826922051" duration="24872000" />
-      <workItem from="1588897959292" duration="10977000" />
+      <workItem from="1588897959292" duration="12128000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1588913657290</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588913657290</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,6 +521,10 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="508" y="32" key="#Inspections" timestamp="1588739227181">
@@ -525,10 +539,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="286" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1588221347276" />
-    <state x="647" y="123" key="FileChooserDialogImpl" timestamp="1588913055366">
+    <state x="129" y="0" key="CommitChangelistDialog2" timestamp="1588913503522">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="647" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588913055366" />
+    <state x="129" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588913503522" />
+    <state x="647" y="123" key="FileChooserDialogImpl" timestamp="1588914463011">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="647" y="123" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588914463011" />
     <state width="771" height="112" key="GridCell.Tab.0.bottom" timestamp="1588819623223">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -561,10 +579,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="771" height="112" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1588819623223" />
-    <state x="368" y="5" key="SettingsEditor" timestamp="1588913165037">
+    <state x="368" y="5" key="SettingsEditor" timestamp="1588914380043">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="368" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588913165037" />
+    <state x="368" y="5" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588914380043" />
+    <state x="240" y="52" key="Vcs.Push.Dialog.v2" timestamp="1588914132193">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="240" y="52" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588914132193" />
     <state x="363" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1588897959339">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
