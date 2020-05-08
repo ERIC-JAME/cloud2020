@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper SYSTEM "http://mybatis.org/dtd/mybatis-3-mapper.dtd" PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN">
+<mapper namespace="com.atguigu.springcloud.damain.Account">
+
+    <resultMap id="BaseResultMap" type="com.atguigu.springcloud.damain.Account">
+        <id column="id" property="id" jdbcType="BIGINT"></id>
+        <result column="user_id" property="userId" jdbcType="BIGINT"></result>
+        <result column="total" property="total" jdbcType="DECIMAL"></result>
+        <result column="used" property="used" jdbcType="DECIMAL"></result>
+        <result column="residue" property="residue" jdbcType="DECIMAL"></result>
+
+    </resultMap>
+    <!--/**
+     * 减账户金额
+     * @param id 用户id
+     * @param money 使用的金额
+     */
+    void decrease(@Param("useId") Long useId,@Param("money") BigDecimal money);-->
+    <update id="decrease">
+        update t_account
+        set residue = residue -#{money},used = used + #{money}
+        where use_id = #{useId};
+    </update>
+</mapper>

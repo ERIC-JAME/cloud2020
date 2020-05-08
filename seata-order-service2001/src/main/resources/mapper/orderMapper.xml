@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper SYSTEM "http://mybatis.org/dtd/mybatis-3-mapper.dtd" PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN">
+<mapper namespace="com.atguigu.springcloud.dao.OrderDao">
+    <resultMap id="BaseResultMap" type="com.atguigu.springcloud.domain.Order">
+        <id jdbcType="BIGINT" property="id" column="id"/>
+        <result jdbcType="BIGINT" property="userId" column="user_id"/>
+        <result jdbcType="BIGINT" property="productId" column="product_id"/>
+        <result jdbcType="INTEGER" property="count" column="count"/>
+        <result jdbcType="DECIMAL" property="money" column="money"/>
+        <result jdbcType="INTEGER" property="status" column="status"/>
+    </resultMap>
+    <!-- /**
+    * 1.新建订单
+    * @param order
+    * @return
+    */
+   int create(Order order);-->
+    <insert id="create">
+        insert into
+                t_order (
+                id,user_id,product_id,count,money,status
+                )
+            values (
+            null,#{userId},#{productId},#{count},#{money},0
+            );
+
+        </insert>
+
+    <!--/**
+     * 2.修改订单状态
+     * @param id
+     * @param status
+     * @return
+     */
+    int update(@Param("userId") Long id,@Param("status") Integer status);-->
+    <update id="update">
+         update t_order
+         set status = 1
+         where user_id=#{userId}
+         and status = #{status};
+         </update>
+</mapper>
